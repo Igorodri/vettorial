@@ -1,0 +1,339 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10.5vh;
+    background-color: #0d1625;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 5px 6px 60px rgba(0, 0, 0, 0.5);
+    top: 0;
+    padding: 0px 100px 0px 100px;
+    box-sizing: border-box;
+}
+
+header nav span {
+    margin: 0px 15px 0px 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header nav span:hover {
+    color: #83f20e;
+    transition: 0.2s;
+}
+
+.logo img {
+    margin: 20px 10px 20px 10px;
+    width: 80px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.logo {
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.mobile_menu {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.mobile_menu.active_mobile {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: none;
+    transition: all 0.3s ease;
+    z-index: 99;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+.btn-default_mobile {
+    display: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #83f20e;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 55px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px #83f20e;
+}
+
+.btn-default_mobile:hover {
+    background-color: #83f20e;
+    box-shadow: 0 4px 10px #83f20e;
+    transform: translateY(-2px);
+}
+
+
+/* Header Celular Menores */
+@media (min-width: 300px) and (max-width: 340px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 20vh;
+        padding: 0px;
+    }
+
+    .desktop_menu {
+        display: none;
+    }
+
+    .btn-default{
+        display: none;
+    }
+
+    .btn-default_mobile{
+        display: block;
+    }
+
+    .mobile_menu {
+        padding-bottom: 20px;
+    }
+
+    .mobile_menu input {
+        height: 40px;
+        width: 180px;
+        background-color: #83f20e;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .mobile_menu input:hover {
+        background-color: #83f20e;
+        transform: scale(1.01, 1.01) translateY(3px);
+        transition: 0.5s;
+    }
+
+    .mobile_menu.active_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-top: 10px;
+        z-index: 100;
+    }
+
+    .mobile_menu a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #5D5C5C;
+        transition: 0.2s;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .mobile_menu a:last-child {
+        margin-bottom: 20px;
+    }
+
+    .mobile_menu a:hover {
+        color: #83f20e;
+        transition: 0.2s;
+
+    }
+}
+
+/*Header celulares padrões*/
+@media (min-width: 341px) and (max-width: 767px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        padding: 0px;
+    }
+
+    .desktop_menu {
+        display: none;
+    }
+
+    .btn-default{
+        display: none;
+    }
+
+    .btn-default_mobile{
+        display: block;
+    }
+
+    .mobile_menu {
+        padding-bottom: 20px;
+    }
+
+    .mobile_menu input {
+        height: 40px;
+        width: 180px;
+        background-color: #83f20e;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .mobile_menu input:hover {
+        background-color: #83f20e;
+        transform: scale(1.01, 1.01) translateY(3px);
+        transition: 0.5s;
+    }
+
+    .mobile_menu.active_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-top: 15px;
+        z-index: 100;
+        margin-top: 9px;
+    }
+
+    .mobile_menu a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #5D5C5C;
+        transition: 0.2s;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .mobile_menu a:last-child {
+        margin-bottom: 20px;
+    }
+
+    .mobile_menu a:hover {
+        color: #83f20e;
+        transition: 0.2s;
+
+    }
+}
+
+/* Header tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        padding: 0px;
+    }
+
+    .desktop_menu {
+        display: none;
+    }
+
+    .btn-default{
+        display: none;
+    }
+
+    .area-btn-desktop {
+        display: none;
+    }
+
+    .btn-default_mobile {
+        display: block;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        background-color: #83f20e;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+        margin-right: 20px;
+        height: 65px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px #83f20e;
+    }
+
+    .btn-default_mobile:hover {
+        background-color: #a9e667;
+        box-shadow: 0 4px 10px #a9e667;
+        transform: translateY(-2px);
+    }
+
+    .btn-default_mobile img {
+        width: 30px;
+        height: 38px;
+    }
+
+    .mobile_menu {
+        padding-bottom: 20px;
+    }
+
+    .mobile_menu input {
+        height: 40px;
+        width: 180px;
+        background-color: #83f20e;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .mobile_menu input:hover {
+        background-color: #83f20e;
+        transform: scale(1.01, 1.01) translateY(3px);
+        transition: 0.5s;
+    }
+
+
+    .mobile_menu.active_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-top: 15px;
+        z-index: 100;
+        margin-top: 5px;
+    }
+
+
+    .mobile_menu a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #5D5C5C;
+        transition: 0.2s;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .mobile_menu a:last-child {
+        margin-bottom: 20px;
+    }
+
+    .mobile_menu a:hover {
+        color: #83f20e;
+        transition: 0.2s;
+
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    header {
+        height: 14vh;
+    }
+}

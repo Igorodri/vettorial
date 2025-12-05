@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+body{
+    background-color: #0d1625;
+}
+
+.btn-default{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: #83f20e;
+    box-shadow: 0 0px 10px #83f20e;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-default:hover{
+    transform: scale(1.05);
+}
