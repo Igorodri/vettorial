@@ -26,8 +26,8 @@ body{
     transform: scale(1.05);
 }
 
-section{
-    margin: 100px 200px 100px 200px;
+.sectionNormal{
+    margin: 100px 200px;
 }
 
 .tituloSection{
@@ -36,5 +36,34 @@ section{
 
 .section-text{
     color: white;
-    margin: 30px 100px 30px 100px;
+    font-weight: bold;
+    margin: 30px 100px
 }
+
+.tituloSectionInvertido{
+    color: white;
+}
+
+.sectionInvertido{
+  padding: 100px 200px;
+  background-color: #83f20e;
+  position: relative;
+
+  clip-path: polygon(
+    0 0,         
+    65% 0,      
+    72% 25%,    
+    100% 25%,   
+
+    100% 100%,  
+    28% 100%,   
+    20% 75%,    
+    0 75%       
+  );
+}
+
+
+
+
+
+

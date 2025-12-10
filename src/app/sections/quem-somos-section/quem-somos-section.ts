@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { BoxComponent } from '../box-component/box-component';
+import { BoxComponent } from '../../components/box-component/box-component';
 
 @Component({
-  selector: 'vettorial-section',
+  selector: 'vettorial-quemsomos',
   imports: [BoxComponent],
   templateUrl: './quem-somos-section.html',
   styleUrl: './quem-somos-section.css',
