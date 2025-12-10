@@ -1,0 +1,25 @@
+.areaServico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaImagemServico{
+    display: flex;
+}
+
+.areaImagemServico img{
+    width: 450px;
+    box-shadow: 5px 6px 70px rgba(0, 0, 0, 0.673);
+    border-radius: 5px;
+}
+
+.areaTextoServico{
+    margin: 70px;
+}
+
+.areaTextoServico div{
+    margin: 10px ;
+    font-weight: bold;
+}
+
