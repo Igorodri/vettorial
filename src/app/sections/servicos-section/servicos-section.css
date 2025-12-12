@@ -1,25 +1,81 @@
+.sectionServico{
+    display: flex;
+    height: 100vh;
+}
+
 .areaServico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    background-image: url('/image-fundo-servico.png');
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 60%,
+        70% 100%,
+        0 100%
+    );
+
+}
+
+.areaImagemServico{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.areaImagemServico{
-    display: flex;
-}
-
 .areaImagemServico img{
-    width: 450px;
+    width: 400px;
     box-shadow: 5px 6px 70px rgba(0, 0, 0, 0.673);
     border-radius: 5px;
 }
 
+.tituloServico{
+    font-size: 44px;
+    color: white;
+}
+
 .areaTextoServico{
-    margin: 70px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 70px 70px 120px 70px;
+    width: 50%;
 }
 
 .areaTextoServico div{
-    margin: 10px ;
+    margin-top: 20px ;
     font-weight: bold;
+    color: white;
+}
+
+.areaTextoServico div ul{
+    margin-top: 20px;
+}
+
+.areaTextoServico fa-icon{
+    margin-right: 10px;
+    color: #83f20e  ;
+}
+
+.areaTextoServico .colorSeta{
+    color: #83f20e;
+
+}
+
+.areaTextoServico div ul li{
+    display: flex;
+    margin-top: 15px;
+}
+
+.orcamento-service p{
+    margin-top: 50px;
+}
+
+.orcamento-service button{
+    margin-top: 20px;
 }
 
