@@ -27,14 +27,9 @@
 }
 
 .areaImagemServico img{
-    width: 400px;
+    width: 450px;
     box-shadow: 5px 6px 70px rgba(0, 0, 0, 0.673);
     border-radius: 5px;
-}
-
-.tituloServico{
-    font-size: 44px;
-    color: white;
 }
 
 .areaTextoServico{

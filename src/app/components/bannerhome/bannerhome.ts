@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {AfterViewChecked, Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'vettorial-bannerhome',
@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class Bannerhome {
 
+  // @ViewChild('videoPlayer') videoElement!: ElementRef<HTMLVideoElement>;
+
+  // reproduzirVideo(): void {
+  //   const video: HTMLVideoElement = this.videoElement.nativeElement;
+
+  //   video.play()
+  // }
 }
