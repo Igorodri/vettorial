@@ -4,9 +4,10 @@
     width: 300px;
     height: 300px;
     position: relative;
-    background-color: #ffffff;
+    background-color: #0d1625;
+    border: 2px solid #83f20e;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px #83f20e;
     padding: 15px;
     margin-left: 20px;
     margin-right: 20px;
@@ -22,7 +23,7 @@
 
 .box h3 {
     font-size: 22px;
-    color: #5D5C5C;
+    color: white;
     margin-bottom: 10px;
 }
 

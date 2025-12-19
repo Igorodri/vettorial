@@ -1,0 +1,26 @@
+.sectionProjetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-top: 50px;
+}
+
+.area-projetos{
+    display: flex;
+    justify-content: center;
+}
+
+.area-interesse{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.area-interesse p{
+    margin: 10px 0px 10px 0px;
+}

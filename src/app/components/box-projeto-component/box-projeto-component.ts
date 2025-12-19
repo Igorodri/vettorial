@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-box-projeto-component',
+  selector: 'vettorial-box-projeto',
   imports: [],
   templateUrl: './box-projeto-component.html',
   styleUrl: './box-projeto-component.css',
