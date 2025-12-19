@@ -7,6 +7,10 @@
     margin-top: 50px;
 }
 
+.sectionProjetos h2{
+    font-size: 34px;
+}
+
 .area-projetos{
     display: flex;
     justify-content: center;
